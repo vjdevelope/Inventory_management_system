@@ -18,8 +18,6 @@ import {
 function App() {
   return (
     <div className="App">
-      <Navbar title="IMS" about="About"></Navbar>
-
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
