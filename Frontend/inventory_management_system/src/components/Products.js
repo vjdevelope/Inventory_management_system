@@ -12,7 +12,7 @@ export default function Products() {
 
   const getProducts = async () => {
     try {
-      const res = await fetch('http://localhost:3001/products', {
+      const res = await fetch('https://inventory-management-system-0nxu.onrender.com/products', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ export default function Products() {
 
   const deleteProduct = async (id) => {
     try {
-      const response = await fetch(`http://localhost:3001/deleteproduct/${id}`, {
+      const response = await fetch(`https://inventory-management-system-0nxu.onrender.com/deleteproduct/${id}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
