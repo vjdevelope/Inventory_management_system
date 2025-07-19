@@ -40,7 +40,7 @@ export default function InsertProduct() {
         setError("");
 
         try {
-            const res = await fetch("https://inventory-management-system-0nxu.onrender.com", {
+            const res = await fetch("https://inventory-management-system-0nxu.onrender.com/insertproduct", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
