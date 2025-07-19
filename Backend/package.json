@@ -5,9 +5,9 @@
   "description": "Inventory Management System Backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node index.js"
-  },
+  "start": "node index.js",
+  "server": "nodemon index.js"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
